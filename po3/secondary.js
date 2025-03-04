@@ -2,8 +2,8 @@ function authenticate() {
     const usernameInput = document.getElementById('username').value;
     const passwordInput = document.getElementById('password').value;
 
-    const correctUsername = 'ak';
-    const correctPassword = '123';
+    const correctUsername = '';
+    const correctPassword = '';
 
     if (usernameInput === correctUsername && passwordInput === correctPassword) {
        
